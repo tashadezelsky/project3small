@@ -38,6 +38,7 @@ h4{
     font-size: 4rem;
     line-height: 3.8rem;
     margin: 1rem;
+    z-index: 3;
 }
 
 h1{
@@ -48,6 +49,7 @@ h1{
     font-stretch:ultra-condensed;
     margin: 0rem 1rem 0rem 0rem;
     opacity: 50%;
+    z-index: 3;
 }
 
 .image-container {
@@ -75,12 +77,66 @@ h1{
 position: fixed;
   top: calc(50% - 10rem);
   left: calc(50% - 10rem);
-  width: 20rem;
-  height: 20rem;
+  width: 30rem;
+  height: 30rem;
   border-radius: 50%;
   z-index: -1;
-  background-color: white;
-  opacity: 30%;
-
+  background: url(../images/bg1.png) no-repeat, fixed;
+  background-size: cover;
+  opacity: 100%;
 }
+
+.image-container{
+    position: fixed;
+    display: flex;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100vh;
+    z-index: -2;
+}
+
+.image-view{
+    position: fixed;
+    display: flex;
+    top: calc(50% - 15rem);
+    left: calc(50% - 15rem);
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    z-index: -2;
+}
+
+.bgimage1 {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    background: url('../images/bg1.png') no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    opacity: 30%;
+    z-index: 1;
+    
+}
+
+/*.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid red;
+    width: 100%;
+    height: 100vh;
+}
+
+.cursor2 {
+    position: fixed;
+      top: calc(50% - 10rem);
+      left: calc(50% - 10rem);
+      width: 30rem;
+      height: 30rem;
+      border-radius: 50%;
+      z-index: -1;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Waterhouse_Hylas_and_the_Nymphs_Manchester_Art_Gallery_1896.15.jpg/1200px-Waterhouse_Hylas_and_the_Nymphs_Manchester_Art_Gallery_1896.15.jpg') 50% 50% no-repeat fixed;
+      background-size: cover;
+      opacity: 30%;
+    }
 

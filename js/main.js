@@ -59,15 +59,23 @@ function showMermaids() {
         imageTitle.innerText = mermaid.fields.title;
         galleryContainer.append(imageTitle);
 
+
+        var imageCircle = document.createElement("div");
+        imageCircle.classList.add("image-circle");
+        document.querySelector(".image-container").append(imageCircle);
+
+        //add the picture 
+        var galleryImage = document.createElement("img");
+        galleryImage.classList.add("image-view");
+        galleryImage.src = mermaid.fields.cursor[0].url;
+        galleryContainer.append(galleryImage); 
+
         //add the picture 
         //var galleryImage = document.createElement("img");
         //galleryImage.classList.add("image-container");
         //galleryImage.src = mermaid.fields.cursor[0].url;
         //galleryContainer.append(galleryImage);
 
-        //var imageCursor = document.createElement("img");
-        //imageCursor.classList.add("image-cursor");
-        //document.querySelector(".cursor1").append(imageCursor);
 
         //var imageBg = document.createElement("img");
         //imageBg.classList.add("bgimage-container");
