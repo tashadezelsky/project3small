@@ -1,0 +1,85 @@
+@font-face {
+    font-family: kaftan;
+    src: url(kaftan.otf);
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: kaftan;
+    color: white;
+    background: url('../images/bg1.png') no-repeat fixed;
+    background-size: cover;
+    max-width: 100%;
+}
+
+.container {
+    /*border: 2px solid orange;*/
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    gap: 3rem;
+}
+
+.gallery-container {
+    /*border: 2px solid red;*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    min-height: 100vh;
+    max-height: 100vh;
+    max-width: 100%;
+}
+
+h4{
+    padding: 1rem ;
+    margin: 0rem;
+    font-size: 4rem;
+    line-height: 3.8rem;
+    margin: 1rem;
+}
+
+h1{
+    z-index: 1;
+    grid-row: 3/4;
+    grid-column: 3/4;
+    font-size: 20rem;
+    font-stretch:ultra-condensed;
+    margin: 0rem 1rem 0rem 0rem;
+    opacity: 50%;
+}
+
+.image-container {
+    /*display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    max-height: 100vh;
+    min-height: 100vh;
+    max-width: 100%;
+    min-width: 100%;
+    z-index: -1;
+    opacity: 50%;
+    padding: 2rem;*/
+
+ /*position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  z-index: -1;*/
+}
+
+.cursor1 {
+position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: white;
+
+}
+
