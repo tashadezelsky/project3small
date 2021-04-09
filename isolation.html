@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/isolation.css">
+    <script src="lib/airtable.browser.js"></script>
+    <script src="js/isolation.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="menu">
+            <a href="index.html"><li> Male & Female Dynamic</li></a>
+            <a href="isolation.html"><li>Isolation</li></a>
+            <a href="companionship.html"><li>Companionship</li></a>
+        </div>
+        <div class=text-container>
+         <h2>Isolation</h2>
+        </div>
+    </div>
+ 
+    <div class="cursor"></div>
+     
+    <script type="text/javascript">
+     const cursor = document.querySelector(".cursor");
+     window.addEventListener("mousemove", function(e){
+     cursor.style.left = (e.x-100)+"px";
+     cursor.style.top  = (e.y-100)+"px";
+     })
+ </script>
+ 
+ <div class="bgimage1"></div>
+    
+</body>
+</html>
