@@ -22,11 +22,6 @@ body {
     gap: 3rem;
 }
 
-.filter {
-    padding: 2rem;
-    z-index: 2;
-}
-
 .gallery-container {
     /*border: 2px solid red;*/
     display: grid;
@@ -85,7 +80,7 @@ position: fixed;
   border-radius: 50%;
   z-index: -1;
   background-color: white;
-  opacity: 20%;
+  opacity: 30%;
 
 }
 

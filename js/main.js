@@ -73,24 +73,5 @@ function showMermaids() {
         //imageBg.classList.add("bgimage-container");
         //imageBg.classList.src = mermaid.fields.cursor[0].url;
         //imageCursor.append(imageBG);
-
-        //get genre field through airtable
-        //loop through the array and add genreas
-        // a class to the song container
-
-        //var imageNumber = mermaid.fields.number;
-        //imageNumber.forEach(function(number) {
-            //galleryContainer.classList.add(number);
-        //})
-
-        //addevent listener to filter to our filter
-        // to add an active class to our images
-
-        //var filterI = document.querySelector('.I');
-        //filterI.addEventListener("click", function(){
-
-            //(galleryConatiner.classList.contains("I")) {
-                //galleryContainer.classList.toggle("active");
-        //})
     })
 };
