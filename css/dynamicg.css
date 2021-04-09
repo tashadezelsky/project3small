@@ -77,7 +77,7 @@ h1{
 }
 
 .cursor1 {
-position: absolute;
+position: fixed;
   top: calc(50% - 10rem);
   left: calc(50% - 10rem);
   width: 20rem;
