@@ -95,13 +95,25 @@ position: fixed;
     z-index: -2;
 }
 
-.image-view{
+.image-circle{
     position: fixed;
     display: flex;
     top: calc(50% - 15rem);
     left: calc(50% - 15rem);
     width: 30rem;
     height: 30rem;
+    border-radius: 50%;
+    z-index: -2;
+}
+
+
+.image-view{
+    position: fixed;
+    display: flex;
+    top: calc(50% - 15rem);
+    left: calc(50% - 15rem);
+    width: 35rem;
+    height: 35rem;
     border-radius: 50%;
     z-index: -2;
 }
